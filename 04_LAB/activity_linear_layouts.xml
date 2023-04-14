@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LinearLayout">
+
+    <Button
+        android:text="Button1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        />
+    <Button
+        android:text="Button2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <Button
+        android:text="Button3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end"
+        />
+    <Button
+        android:text="Button4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end"
+        />
+    <Button
+        android:text="Button5"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <Button
+        android:text="Button6"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        />
+    <Button
+        android:text="Button7"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        />
+    <Button
+        android:text="Button8"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Button 9"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:text="Button 10"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Button 11"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:text="Button 12"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+</LinearLayout>
